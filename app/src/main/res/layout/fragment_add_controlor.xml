@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:focusableInTouchMode="true"
+    android:padding="16dp"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linia"
+        android:textSize="24sp"
+        android:id="@+id/alegeLiniaDialogTV"
+        android:paddingBottom="16dp"/>
+
+    <Spinner
+        android:layout_below="@id/alegeLiniaDialogTV"
+        android:id="@+id/liniaChooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/TVControlor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Controlor"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/liniaChooser"
+        android:paddingBottom="16dp"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/controlorSwitch"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/liniaChooser"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TVControlor"
+        android:id="@+id/numarTV"
+        android:text="Numar"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:layout_below="@id/numarTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Optional"
+        android:id="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trimite"
+        android:id="@+id/submit"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentEnd="true"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anuleaza"
+        android:id="@+id/cancel"
+        android:layout_alignTop="@+id/submit"
+        android:layout_toStartOf="@+id/submit"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+</RelativeLayout>

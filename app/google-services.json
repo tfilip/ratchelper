@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "981506065230",
+    "firebase_url": "https://ratchelper-1351.firebaseio.com",
+    "project_id": "ratchelper-1351",
+    "storage_bucket": "ratchelper-1351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981506065230:android:4ec6744715e22d82",
+        "android_client_info": {
+          "package_name": "com.stairsapps.ratchelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981506065230-nl0o12c899bp1e73lpro2oaop4hklt0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stairsapps.ratchelper",
+            "certificate_hash": "9A66E3749F4589E6444DC96FEB7A8E0CAF983676"
+          }
+        },
+        {
+          "client_id": "981506065230-8ugkuer452np2mn68qhi1olvc5158v41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeJkZvYuQ0T9RQ2Prlci-m6ma51CIsMSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981506065230-8ugkuer452np2mn68qhi1olvc5158v41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

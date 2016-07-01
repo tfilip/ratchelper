@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stairsapps.ratchelper.FakeSMS"
+    android:padding="16dp"
+    android:id="@+id/RL"
+    android:gravity="center"
+    android:focusableInTouchMode="true">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linia"
+        android:textSize="24sp"
+        android:id="@+id/chooseLineTV"/>
+
+    <Spinner
+        android:layout_margin="8dp"
+        android:layout_below="@id/chooseLineTV"
+        android:id="@+id/chooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/numarBileteTV"
+        android:textSize="24sp"
+        android:layout_below="@id/chooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numar bilete"
+        />
+
+
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/np"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/numarBileteTV">
+
+    </NumberPicker>
+
+    <Button
+        android:layout_margin="16dp"
+        android:layout_below="@id/np"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GoSMS"
+        android:text="GO"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
